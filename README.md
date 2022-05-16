@@ -6,7 +6,7 @@
 -
 
 # Справочник команд
-`--database=<path>` - нахождение папки базы данных/n
+`--database=<path>` - нахождение папки базы данных  
 `fflconto dict income add --code=<code> --name=<name> [--comment=<comment>]` - добавление строчки в текстовом файле dict-income.csv отвечающего за доходы  
 `fflconto dict income update <code> [--name=<name>] [--comment=<comment>] [--code=<code>]` - изменение строчки в текстовом файле dict-income.csv отвечающего за доходы  
 `fflconto dict income delete <code>` - удаление строчки в текстовом файле dict-income.csv отвечающего за доходы  
