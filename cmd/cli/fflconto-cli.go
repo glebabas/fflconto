@@ -1,8 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"testing"
 
-func main() {
-	fmt.Println("fflconto")
+	"github.com/stretchr/testify/assert"
+)
+
+func TestSomething(t *testing.T) {
+
+	assert.True(t, true, "True is true!")
 
 }
